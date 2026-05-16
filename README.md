@@ -16,7 +16,6 @@ This project reflects my journey in developing analytical thinking, SQL problem-
 This project focuses on performing **Exploratory Data Analysis (EDA)** using SQL on the **Gold Layer** of a Data Warehouse project.  
 The objective of this project is to explore business data, analyze trends, discover insights, and practice analytical thinking using SQL queries.
 
-The EDA process was structured into **6 analytical stages**, and all SQL scripts were version-controlled and committed using Git 🛠️.
 
 This project is built on top of my previously developed **Data Warehouse Project**, where the data was cleaned, transformed, and modeled before analysis , Here is link to my datawarehouse project : https://github.com/mahdddadg/sql-data-warehouse
 
@@ -148,28 +147,6 @@ After preparing the analytical data model, this EDA project was created to perfo
 
 ---
 
-# 🛠️ Technologies Used
-
-- SQL Server
-- T-SQL
-- Data Warehousing
-- Exploratory Data Analysis (EDA)
-- Git & GitHub
-
----
-
-# 🚀 Skills Demonstrated
-
-- Analytical SQL
-- Business Data Analysis
-- Data Exploration
-- KPI Analysis
-- Aggregation & Ranking
-- Data Warehouse Understanding
-- Query Optimization
-- Git Version Control
-
----
 
 
 
