@@ -1,4 +1,46 @@
+/* ============================================================
+   Business KPI Overview & Summary Metrics Analysis
 
+   Purpose:
+   Generate high-level business KPIs and summary metrics
+   to provide a quick overview of sales performance,
+   customer activity, product volume, and order statistics.
+
+   Analysis Includes:
+
+   1. Total Sales Revenue
+      - Calculate total business revenue generated
+        from all sales transactions
+
+   2. Total Quantity Sold
+      - Measure total number of items sold
+
+   3. Average Selling Price
+      - Calculate the average product selling price
+
+   4. Total Orders Analysis
+      - Count all orders
+      - Count distinct orders for more accurate reporting
+
+   5. Total Products Analysis
+      - Calculate total products available
+      - Count distinct product names
+
+   6. Customer Analysis
+      - Count total registered customers
+      - Count customers who completed purchases
+
+   7. Unified KPI Dashboard Query
+      - Combine all business KPIs into a single query
+        using UNION ALL for reporting and dashboard purposes
+
+ 
+
+   Dataset:
+   - gold.facts_sales
+   - gold.dim_products
+   - gold.dim_customers
+============================================================ */
 -- find totall sales :
 
 select sum(sales_amount ) as total_sales from gold.facts_sales
